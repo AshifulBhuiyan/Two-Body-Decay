@@ -13,7 +13,47 @@ __pycache__/
 *.log
 *.out
 *.toc
+
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
+# LaTeX auxiliary files (from specific editors like Vim, Emacs, etc.)
+*.synctex.gz
+*.nav
+*.snm
+*.xdv
+*.gz
+*.pdfsync
+
+# LaTeX build directories (if you're using a build system like latexmk)
+_build/
+build/
+
+# Temporary files created by text editors or IDEs
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Editor directories (Vim, Sublime, etc.)
+.vscode/
+.idea/
+
+# Compiled files
 *.pdf
+
 
 # VS Code settings
 .vscode/
